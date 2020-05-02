@@ -5,6 +5,7 @@
     <title>Résumé</title>
 
     <link rel="stylesheet" href="https://volodymyrkushnir.com/assets/stylesheets/base.css">
+    <link rel="stylesheet" href="./style.css">
   </head>
   <body>
     <main>
@@ -14,7 +15,8 @@
             <div class="row">
               <div class="three wide center aligned column">
                 <div class="avatar-wrapper">
-                  <object class="avatar" data="./assets/images/avatar.svg" role="img" aria-label="My profile picture"></object>
+                  <div class="background"></div>
+                  <img class="avatar" src="https://avatars3.githubusercontent.com/u/10290626?s=460&u=c5bb6bc6f6c4bf82e4505001111e579678155806&v=4" alt="My profile picture"></img>
                 </div>
               </div>
               <div class="thirteen wide column">
@@ -64,7 +66,7 @@
                   <div class="sixteen wide mobile only column">
                     <div class="divider"></div>
                   </div>
-                  <div class="sixteen wide column">
+                  <div class="intro sixteen wide column">
                     <h2>Résumé</h2>
                     <p>&mdash; Hello! I’m a skilled frontend developer<strong style="margin-left: 0.0625em;">*</strong> with 7 years of experience in UI/UX design, application development, and database modeling. I strive to craft precise, responsive, fast, easy-to-use environments with both strong purpose and great looks.</p>
                     <p style="opacity: 0.75;"><strong style="margin-right: 0.0625em;">*</strong>I feel like it's 40-60 by <a href="https://css-tricks.com/the-great-divide/" rel="external">The Great Divide</a> into JavaScript engineer and UX engineer</p>
@@ -78,7 +80,7 @@
               </div>
             </div>
             <div class="row">
-              <div class="ten wide column">
+              <div class="ten wide column column--left">
                 <h3>Experience</h3>
                 <h6>Recent</h6>
                 <ul class="timeline">
@@ -147,10 +149,8 @@
                     </ol>
                   </li>
                 </ul>
-                <h6>Back then</h6>
-                <!-- Timeline (older events) -->
               </div>
-              <div class="six wide column">
+              <div class="six wide column column--right">
                 <section>
                   <h3>Languages</h3>
                   <p class="tags small"><a href="/uk-ua" hreflang="uk" rel="alternate" class="language" lang="uk">&#x1f1fa;&#x1f1e6; <span>УКРАЇНСЬКА</span></a> <a href="/ru-ru" hreflang="ru" rel="alternate" class="language" lang="ru">&#x1f1f7;&#x1f1fa; <span>РУССКИЙ</span></a> <span class="language" lang="en">&#x1f1fa;&#x1f1f8; ENGLISH</span></p>
@@ -206,7 +206,7 @@
                     </li>
                   </ul>
                 </section>
-                <section>
+                <section>serve
                   <h3>Articles</h3>
                   <p>None published <sup><em>yet</em></sup></p>
                 </section>
